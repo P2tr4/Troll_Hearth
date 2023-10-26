@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: #171717;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+}
+
+ul {
+    margin: 2px 0 22px 17px
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+.header {
+    background-image: url('bonfire1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+
+.main, .logo, .menubar, .site_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 880px;
+    padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+    font: normal 250% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999
+}
+
+hr {
+    border: solid 1px #f3f3f3;
+}
+
+.reviews {
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    justify-content:space-around;
+    background: #000;
+    position: relative;
+    z-index: 1;
+    
+}
+.neon-btn{
+    border: 0px solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 84.5%;
+    padding: 10px 20px;
+    font-weight: 300;
+    transition: 0.2s;
+    color: #e6e7db;
+
+}
+
+.neon-btn:hover{
+    color: white;
+    border: 0;
+    background-color: #e6e7db;
+    box-shadow: 5px 5px 50px 6px rgb(255, 255, 255);
+    
+}
+
+table {
+    width: 100%;
+    border: solid 1px #f4f4f4;
+}
+
+td {
+    padding: 2%;
+    border: solid 1px #f4f4f4;
+}
+
+td img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.menu_block {
+    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+    /*justify-content: space-between;*/
+}
+
+.menu_item {
+    text-align: center;
+    background-color: #212121;
+    padding: 20px;
+    border: 1px solid #323232;
+    border-radius: 2.2%;
+    width: 14%;
+    max-height: 200px;
+    margin-top: 1.2%;
+    margin-left: 2.19%;
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    bottom: 4.3%;
+    right: 4.6%;
+    font-weight: bold;
+    color: #d2d21a; /* Цвет цены */
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu_item img {
+    width: 50%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 6%;
+}
+
+.menu_item h3 {
+    font-size: 94%;
+    margin: 0 0 14px;
+}
+
+.menu_item p {
+    font-size: 73%;
+    margin: 0;
+}
+
+.table_reserv_block {
+    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.table_reserv_item {
+    text-align: center;
+    background-color: #212121;
+    padding: 20px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    width: 14%;
+    max-height: 300px;
+    margin-top: 15px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.room_reserv_block {
+    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.room_reserv_item {
+    text-align: center;
+    background-color: #212121;
+    padding: 20px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    width: 14%;
+    max-height: 350px;
+    margin-top: 15px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.room_reserv_item .date-separator {
+    color: #606060;
+    margin: -40px 0; /* Измените значение отступа по вашему усмотрению */
+    font-size: 2.5em;
+}
+
+/* Добавьте стили для поля ввода */
+input[type="search"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #3a3a3a;
+    color: rgb(116, 115, 115)
+}
+
+/* Стили для кнопки */
+.btn {
+    background-color: #3a3a3a;
+    color: rgb(116, 115, 115);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #161616;
+    
+}
+
+.btn:hover {
+    background-color: #dfdfdf;
+    color: #161616;
+    border: 1px solid #161616;
+
+}
+
+#date-input {
+    width: 150px; /* Установите желаемую ширину поля для даты */
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
